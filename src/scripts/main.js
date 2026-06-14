@@ -27,7 +27,7 @@ const pushNotification = (posTop, posRight, title, description, type) => {
 
   setTimeout(() => {
     notification.style.display = 'none';
-  }, 200000000);
+  }, 2000);
 };
 
 pushNotification(
